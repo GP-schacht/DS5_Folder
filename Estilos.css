@@ -1,0 +1,70 @@
+body 
+ {
+    background-color: #85c1e9 ;
+    margin: 0 ;
+    padding: 12px;
+}
+
+header
+{
+ background-color: white;
+ width: 75%;
+ margin: 0 auto;
+ padding: 12px;
+ border-radius: 8px;
+
+}
+
+img{
+height: 150px;
+border-radius: 50%;
+
+}
+
+div{
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 90%;
+        justify-content:space-between;
+        
+}
+
+main
+{
+    width: 75%;
+    background-color: white;
+    padding: 12px;
+    margin: 0 auto ;
+    border-radius: 8px;
+}
+
+.divTabla
+{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 30px;
+}
+
+td{
+    border: 1px black;
+    padding: 8px;
+    text-align: center;
+}
+
+.texto
+{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    display: flex; 
+    flex-direction: column;
+    gap: 4px;
+}
