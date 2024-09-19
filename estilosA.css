@@ -1,0 +1,120 @@
+body{
+    background-color: #8e44ad;
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+table
+{
+    
+    margin: 0 auto;
+    width: 90%;
+}
+
+td,tr
+{
+    border: 1px solid black;
+}
+
+header
+{
+    display: flex;
+    background-color: white;
+    width: 75%;
+    max-width:40cm;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 8px;
+    justify-items: center;
+}
+
+footer
+{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    padding: 12px;
+    align-items: flex-start;
+}
+
+.logo
+{
+    width: 30%;
+    align-content: center;
+}
+
+.title
+{
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    width: 50%
+}
+.divTableA
+{
+    align-items: center;
+    flex-direction: row;
+    
+}
+.espacioA1
+{
+    height: 75px;
+}
+main
+{
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    width:fit-content;
+    
+    
+}
+
+.divIntroduction
+{
+    text-align: center;
+}
+
+
+a
+{
+    text-decoration: none;
+    text-align: center;
+    font-style: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+td{
+    font-size: larger;
+    padding: 8px;
+    text-align:start;
+}
+img
+{
+    height: 200px;
+    width: 200px;
+    border-width: 3px;
+    
+}
+
+.imgLogo
+{
+    height: 200px;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+.boton
+{
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

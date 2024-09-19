@@ -1,4 +1,11 @@
-body 
+div{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+      
+}
+
+.bodyHome 
  {
     background-color: #85c1e9 ;
     margin: 0 ;
@@ -15,32 +22,48 @@ header
 
 }
 
-img{
+.logoHome
+{
+   
+    justify-content:space-between; 
+}
+
+.imgLogo{
 height: 150px;
 border-radius: 50%;
 
 }
 
-        
+.espacioHome1
+{
+    height: 200px;
 }
 
-main
+.espacioHome2
 {
+    height: 300px; 
+}
+
+.mainHome
+{
+   
     width: 75%;
+    background-color: white;
+    padding: 20px;
+    margin: 0 auto ;
+    border-radius: 8px;
+}
+
+.footerHome
+{
+    width:fit-content;
     background-color: white;
     padding: 12px;
     margin: 0 auto ;
     border-radius: 8px;
 }
 
-.divTabla
-{
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-}
-
-table{
+.tableHome{
     border-collapse: collapse;
     width: 100%;
     font-size: 30px;
@@ -54,7 +77,7 @@ td{
 
 .texto
 {
-    display: flex;
+    
     flex-direction: column;
 }
 ul{
