@@ -70,9 +70,14 @@ border-radius: 50%;
 }
 
 td{
-    border: 1px black;
+    
     padding: 8px;
     text-align: center;
+}
+
+td:hover
+{
+    background-color:#85c1e9 ;
 }
 
 .texto
@@ -84,4 +89,13 @@ ul{
     display: flex; 
     flex-direction: column;
     gap: 4px;
+}
+
+
+a
+{
+    
+    
+    color:aqua  ;
+    text-decoration:none;
 }
