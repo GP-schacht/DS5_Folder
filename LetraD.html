@@ -13,14 +13,16 @@
             font-family: 'Times New Roman', Times, serif;
         }
         header
-        {
-            background-color: white;
-            width: 75%;
-            margin: 0 auto;
-            padding: 12px;
-            border-radius: 8px;
-            text-align: center;
-        }
+    {
+    display: flex;
+    background-color: white;
+    width: 75%;
+    max-width:40cm;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 8px;
+    justify-items: center;
+}
         div
         {
             display: flex;
@@ -41,7 +43,7 @@
             text-align: center;
             text-decoration: none;
             font-style: bold;
-            color: aqua;
+            color: black;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         ol
@@ -58,14 +60,51 @@
             border-width: 3px;
             border-style: solid;
         }
+
+        main
+        {
+            
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    width:fit-content;   
+  }
+
+  table{
+   margin: 0 auto;
+    width: 90%;
+  }
+
+  .divTable
+  {
+    align-items: center;
+    flex-direction: row;
+    
+  }
+        
     </style>
 </head>
 <body>
     <header>
-        <h1>Letra D</h1>
-    </header>
+        <div class="logo">
+           <a href="HOME.html">
+           <img src="public/logo.jpeg" class="imgLogo" >
+       </a>
+       </div>
+       
+          <div class="title">
+           <h1> Letra D </h1>
+       </div>         
+       
+                   
+           </header>
     <br>
-    <section>
+
+    <main>
+    
         <div>
             <p.texto>
                 <strong>
@@ -76,11 +115,11 @@
                 En esta página encontraremos las palabras más comunes para la letra D.
             </p>
         </div>
-    </section>
+
     <br>
     
-    <section>
-        <div>
+    
+        <div class="div">
             <table>
                 <tr>
                     <td>
@@ -125,7 +164,7 @@
             </table>
             
         </div>
-    </section>
+    
     <br>
 
     <footer>
@@ -134,5 +173,6 @@
         </div>
         <br>
     </footer>
+</main>
 </body>
 </html>

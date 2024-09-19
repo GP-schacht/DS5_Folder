@@ -13,22 +13,27 @@
             font-family: 'Comic Sans MS',cursive,sans-serif;
         }
         header
-        {
-            background-color: white;
-            width: 75%;
-            margin: 0 auto;
-            padding: 12px;
-            border-radius: 8px;
-            text-align: center;
-        }
+    {
+    display: flex;
+    background-color: white;
+    width: 75%;
+    max-width:40cm;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 8px;
+    justify-items: center;
+}
         div
         {
             display: flex;
             align-items: center;
             margin: 0 auto;
             width: 90%;
-            justify-content:space-between;
+            
         }
+
+        
+     
         
         p
         {
@@ -60,15 +65,50 @@
             border-style: solid;
             border-color: black;
         }
+        main
+        {
+            
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    width:fit-content;   
+  }
+
+  table{
+   margin: 0 auto;
+    width: 90%;
+  }
+
+  .divTable
+  {
+    align-items: center;
+    flex-direction: row;
+    
+  }
     </style>
 </head>
 <body>
     <header>
-        <h1>Letra H</h1>
-    </header>
+        <div class="logo">
+           <a href="HOME.html">
+           <img src="public/logo.jpeg" class="imgLogo" >
+       </a>
+       </div>
+       
+          <div class="title">
+           <h1> Letra H </h1>
+       </div>         
+       
+                   
+           </header>
     <br>
+
+    <main>
     <section>
-        <div style="color: white;">
+        <div class="intro">
             <p.texto>
                 <strong>
                     Introducción:
@@ -83,7 +123,7 @@
     
     <section>
         <div>
-            <table style="color: white;">
+            <table >
                 <tr>
                     <td>
                         Hereje: Persona que niega alguno de los dogmas establecidos en una religión.
@@ -136,5 +176,6 @@
         </div>
         <br>
     </footer>
+    </main>
 </body>
 </html>

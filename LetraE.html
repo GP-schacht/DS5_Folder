@@ -13,14 +13,16 @@
             font-family:Arial, Helvetica, sans-serif;
         }
         header
-        {
-            background-color: white;
-            width: 75%;
-            margin: 0 auto;
-            padding: 12px;
-            border-radius: 8px;
-            text-align: center;
-        }
+    {
+    display: flex;
+    background-color: white;
+    width: 75%;
+    max-width:40cm;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 8px;
+    justify-items: center;
+}
         div
         {
             display: flex;
@@ -42,7 +44,7 @@
             text-decoration: none;
             text-align: center;
             font-style: bold;
-            color: aqua;
+            color: black;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         ol
@@ -60,13 +62,50 @@
             border-width: 3px;
             border-style: solid;
         }
+
+        
+        main
+        {
+            
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 20px;
+    width:fit-content;   
+  }
+
+  table{
+   margin: 0 auto;
+    width: 90%;
+  }
+
+  .divTable
+  {
+    align-items: center;
+    flex-direction: row;
+    
+  }
     </style>
 </head>
 <body>
     <header>
-        <h1>Letra E</h1>
-    </header>
+        <div class="logo">
+           <a href="HOME.html">
+           <img src="public/logo.jpeg" class="imgLogo" >
+       </a>
+       </div>
+       
+          <div class="title">
+           <h1> Letra E </h1>
+       </div>         
+       
+                   
+           </header>
     <br>
+
+    <main>
     <section>
         <div>
             <p.texto>
@@ -136,5 +175,7 @@
         </div>
         <br>
     </footer>
+
+    </main>
 </body>
 </html>
